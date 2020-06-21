@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@700&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.btn {
+  @apply inline-block rounded-lg font-body font-bold py-4 px-8 leading-none text-white bg-purple;
+}
+@screen sm {
+  .btn {
+    @apply py-6 px-10;
+  }
+}
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.slick-slider {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.slick-prev:before, .slick-next:before {
+    border: 2px solid #050066 !important;
+    border-radius: 50%;
+    color: #050066 !important;
+    font-family: sans-serif;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+}
+.slick-prev:before {
+  content: "❮";
+}
+.slick-next:before {
+  content: "❯";
+}
+.card.slick-slide img {
+  max-width: 80%;
+  margin: 0 auto;
+}
