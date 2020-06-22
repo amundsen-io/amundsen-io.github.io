@@ -10,6 +10,8 @@ import sourcemaps from "gulp-sourcemaps";
 import atimport from "postcss-import";
 import tailwindcss from "tailwindcss";
 
+import ghPages from "gulp-gh-pages";
+
 const rawStylesheet = "src/style.css";
 const rawJavascript = "src/js.js";
 const siteRoot = "dist";
@@ -102,6 +104,8 @@ task("startServer", () => {
     buildSite
   );
 });
+
+task('deploy', () => src('./dist/**/*').pipe(ghPages()));
 
 const buildSite = series("buildJekyll", "processJavascript", "processStyles");
 
