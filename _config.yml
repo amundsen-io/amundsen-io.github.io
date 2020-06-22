@@ -1,10 +1,10 @@
 title: Amundsen by Lyft
 description: Open source data discovery and metadata engine.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/amundsen" # the subpath of your site, e.g. /blog
 url: "https://kylewaynebenson.github.io/amundsen" # the base hostname & protocol for your site, e.g. http://example.com
 
 #Links within the site
-documentation: "https://lyft.github.io/flyte/"
+documentation: "https://lyft.github.io/amundsen/"
 getstarted: "https://github.com/lyft/amundsen"
 
 destination: dist
