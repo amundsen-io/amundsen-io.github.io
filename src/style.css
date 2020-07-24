@@ -45,3 +45,25 @@ ul {
   max-width: 80%;
   margin: 0 auto;
 }
+
+.info-cards {
+  margin: auto;
+  text-align: center;
+  width: 900px;
+}
+
+.info-card {
+  border: 1px solid #050066;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 16px 12px;
+  padding: 12px;
+  text-align: center;
+  height: 116px;
+  width: 409px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+}

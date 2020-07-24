@@ -63,7 +63,8 @@ task("processStyles", done => {
               extractor: TailwindExtractor,
               extensions: ["html", "js"]
             }
-          ]
+          ],
+          whitelistPatterns: [/slick*/],
         })
       )
     )
