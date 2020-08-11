@@ -11,7 +11,7 @@ github: "https://github.com/amundsen-io/amundsen"
 community: "https://join.slack.com/t/amundsenworkspace/shared_invite/enQtNTk2ODQ1NDU1NDI0LTc3MzQyZmM0ZGFjNzg5MzY1MzJlZTg4YjQ4YTU0ZmMxYWU2MmVlMzhhY2MzMTc1MDg0MzRjNTA4MzRkMGE0Nzk"
 medium: "https://github.com/amundsen-io/amundsen#blog-posts-and-interviews"
 
-destination: dist
+destination: docs 
 
 exclude:
   - Gemfile
