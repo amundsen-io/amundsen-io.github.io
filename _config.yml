@@ -4,8 +4,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.amundsen.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #Links within the site
-documentation: "https://lyft.github.io/amundsen/"
-getstarted: "https://lyft.github.io/amundsen/"
+documentation: "https://www.amundsen.io/amundsen/"
+getstarted: "https://www.amundsen.io/amundsen/"
 youtube: "https://www.youtube.com/playlist?list=PL0UJdxehTNlKnGU_h7k2fzJyvAiufeh1U"
 github: "https://github.com/lyft/amundsen"
 community: "https://join.slack.com/t/amundsenworkspace/shared_invite/enQtNTk2ODQ1NDU1NDI0LTc3MzQyZmM0ZGFjNzg5MzY1MzJlZTg4YjQ4YTU0ZmMxYWU2MmVlMzhhY2MzMTc1MDg0MzRjNTA4MzRkMGE0Nzk"
