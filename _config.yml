@@ -6,7 +6,6 @@ url: "https://www.amundsen.io" # the base hostname & protocol for your site, e.g
 #Links within the site
 documentation: "https://www.amundsen.io/amundsen/"
 getstarted: "https://www.amundsen.io/amundsen/"
-getmanaged: "https://www.stemma.ai/"
 youtube: "https://www.youtube.com/playlist?list=PL0UJdxehTNlKnGU_h7k2fzJyvAiufeh1U"
 github: "https://github.com/amundsen-io/amundsen"
 community: "https://join.slack.com/t/amundsenworkspace/shared_invite/zt-s8f3srsx-_0b6_WA5~eYGrv_g63L2ng"
