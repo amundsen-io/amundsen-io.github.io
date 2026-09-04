@@ -1,3 +1,5 @@
+# Due to inactivity, this project was archived in September 2026. The contents will remain available for historical purposes.
+
 # Amundsen Marketing Site
 Built using NPM, Jekyll, and Tailwind.css via `npm start`.
 
